@@ -582,7 +582,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "2b61f41d-8496-4c1e-b071-83e7d9838a73")
-		(at 154.025 100.365)
+		(at 154 78)
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -630,7 +630,6 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/3905886b-1128-471c-8557-f7be6cb7447b/bca141a9-0227-4b2c-9039-d206221ffaa2")
 		(sheetname "/Current and Voltage sensing/")
 		(sheetfile "sensing.kicad_sch")
 		(units
@@ -1149,7 +1148,7 @@
 			)
 		)
 		(property "Value" "TPS61088RHLR"
-			(at 0 0 0)
+			(at 0 3.724999 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "96cd8bbd-3872-4d5d-8a47-bbf01d02857e")
@@ -1416,7 +1415,7 @@
 			(uuid "3064a3d5-5944-49f1-b179-fb91d7b1a13c")
 		)
 		(fp_text user "Designator97"
-			(at -1.8288 -3.8354 0)
+			(at 8 0.224999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9f23edea-2f40-432f-aae2-3ba81d25cd06")
@@ -1713,7 +1712,6 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/3905886b-1128-471c-8557-f7be6cb7447b/0f5b2d0c-0554-499b-9cdf-194df2ebe287")
 		(sheetname "/Current and Voltage sensing/")
 		(sheetfile "sensing.kicad_sch")
 		(units
