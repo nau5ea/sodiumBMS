@@ -3659,9 +3659,9 @@
 		)
 		(uuid "115c40d0-7741-4917-9665-8562424be7c1")
 	)
-	(text "Battery Pack:\n3S configuration"
+	(text "Battery Pack:\n3S configuration\n\n- cell1 +\n+ cell2 -\n- cell3 +"
 		(exclude_from_sim no)
-		(at 80.772 27.432 0)
+		(at 80.01 23.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
