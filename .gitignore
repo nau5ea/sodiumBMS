@@ -1,2 +1,12 @@
-# Ignore kicad lock files
+# KiCad backup and temporary files
+*.bak
+*.kicad_prl
+*-bak
+*-backups/
+_autosave-*
 *.lck
+
+# Manufacturing outputs (optional - see below)
+*.gbr
+*.drl
+*.rpt
