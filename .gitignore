@@ -1,2 +1,8 @@
 # Ignore kicad lock files
 *.lck
+# Ignore build directory
+build/*
+# Ignore KiCAD backup archives
+kicad_files/sodiumBMS-backups
+# Ignore a small note louis made to himself
+bjtnotes.txt
