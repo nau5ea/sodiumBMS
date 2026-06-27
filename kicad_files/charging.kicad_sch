@@ -606,7 +606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05c0693f-e55d-4235-9a71-7aee66cd5787")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 157.48 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -674,8 +674,8 @@
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/849bf9de-8a71-45bf-974a-6cae7b9f0dac"
-					(reference "U7")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -801,7 +801,7 @@
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/849bf9de-8a71-45bf-974a-6cae7b9f0dac"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
 					(reference "U2")
 					(unit 1)
 				)

@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "fcdd2084-f4ec-4b1b-b9ac-497c327c0303")
 	(paper "A4")
 	(lib_symbols
@@ -8739,12 +8739,13 @@
 		)
 	)
 	(sheet
-		(at 224.282 23.368)
-		(size 33.02 25.4)
+		(at 218.186 21.59)
+		(size 36.576 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8752,9 +8753,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "2101f6f5-8614-4998-96ad-a225cab16857")
-		(property "Sheetname" "charge power supply"
-			(at 224.282 22.6564 0)
+		(uuid "1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f")
+		(property "Sheetname" "Charging and Balancing"
+			(at 218.186 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8764,8 +8765,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "powerSupply.kicad_sch"
-			(at 224.282 49.3526 0)
+		(property "Sheetfile" "charging.kicad_sch"
+			(at 218.186 53.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
