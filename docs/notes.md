@@ -17,3 +17,10 @@ this means we have an Isw of (Iin + Il/2), estimating Il to be 0.3 x 1.8A, Isw =
 this is much higher than the Isw of the MC34063. however we can use an external FET to raise the current limit substantially. we will use our friend the jellybean AO3400A which can do like 5A easy  
 
 MUST USE P CHANNEL FET, possible with another fet before it for the external switch for mc34063. also move the resistor on the gate
+
+after discussion, soham and i decided to investigate using USB-PD to supply a higher voltage directly into our device rather than figure out a boost converter and then additional charging circuitry for current control at 12V.
+using PD means we can have a 15V supply to a buck converter that will be able to supply a controlled pack charge current with less additional circuitry.
+
+we can either use a discrete PD controller or switch to an MCU that supports PD natively (preferred for parts simplicity).
+
+the available STM32 MCUs with PD support are the G0B1, G071, G0C1 and G081 (which each have 1 19-channel ADC at 2.5MSps), a few others which are very computationally capable and probably excessive for our application, and the STM32L5 which has 2 ADCs. the G4x1 series also has multiple ADCs and seems cost efficient.
