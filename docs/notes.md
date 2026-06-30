@@ -24,3 +24,5 @@ using PD means we can have a 15V supply to a buck converter that will be able to
 we can either use a discrete PD controller or switch to an MCU that supports PD natively (preferred for parts simplicity).
 
 the available STM32 MCUs with PD support are the G0B1, G071, G0C1 and G081 (which each have 1 19-channel ADC at 2.5MSps), a few others which are very computationally capable and probably excessive for our application, and the STM32L5 which has 2 ADCs. the G4x1 series also has multiple ADCs and seems cost efficient.
+
+i think our best option in terms of native PD MCUs is the G0B1, and it comes recommended by orangeben so it must be good. we will just have to rearrange our ADC accesses in the main loop but that shouldn't be too hard
