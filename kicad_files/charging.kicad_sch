@@ -1215,6 +1215,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDA"
 			(power global)
 			(pin_numbers
@@ -1528,17 +1842,37 @@
 		)
 		(uuid "56aea3c4-e142-46a9-9fbd-1585b965827e")
 	)
+	(text "Vsys voltage can vary being either 15V or Vbatt (nominally 12V)"
+		(exclude_from_sim no)
+		(at 144.78 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf1d66c3-659d-4631-a081-4922ee3790e0")
+	)
+	(text "All caps are ceramic unless mentioned otherwise"
+		(exclude_from_sim no)
+		(at 135.128 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6427a90-46c9-4ec5-a385-c7efc912adf9")
+	)
 	(junction
-		(at 93.98 78.74)
+		(at 80.01 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2456c45b-a852-44e8-b478-d753f875be3d")
 	)
 	(junction
-		(at 100.33 71.12)
+		(at 78.74 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26f6c7ad-6a8b-4659-9195-9019f0ab5075")
+		(uuid "593a1c2b-eb41-451f-bcf4-fa931d81529b")
 	)
 	(junction
 		(at 176.53 71.12)
@@ -1547,56 +1881,32 @@
 		(uuid "80db0bb5-ebba-4d20-bce8-2280e5572fec")
 	)
 	(junction
-		(at 80.01 71.12)
+		(at 100.33 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9887526e-0357-46d6-acb7-45bbd04d0a2f")
+		(uuid "83cd5569-ed28-4877-bf3d-1eee8b73c203")
 	)
 	(junction
-		(at 80.01 78.74)
+		(at 100.33 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a405308a-3a9f-43c1-b968-6f126c59b42b")
+	)
+	(junction
+		(at 66.04 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3ec7ef6-a529-4566-9655-2281d49fc2c4")
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 93.98 83.82)
+			(xy 71.12 49.53) (xy 73.66 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05b0a869-fd93-4769-b48a-1c5221f0982a")
-	)
-	(wire
-		(pts
-			(xy 88.9 78.74) (xy 93.98 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a1955a-7b08-4256-bedb-3cfb89c952e0")
-	)
-	(wire
-		(pts
-			(xy 80.01 71.12) (xy 100.33 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e900281-2dc7-4809-93c4-494ebcd5bdb7")
-	)
-	(wire
-		(pts
-			(xy 93.98 73.66) (xy 93.98 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36f69878-1a21-4b13-95ba-d2ee0b33c5a8")
+		(uuid "0566d8ab-ddd0-4b12-b98a-fd7699a84b34")
 	)
 	(wire
 		(pts
@@ -1606,7 +1916,117 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "05b0a869-fd93-4769-b48a-1c5221f0982a")
+	)
+	(wire
+		(pts
+			(xy 74.93 78.74) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a1955a-7b08-4256-bedb-3cfb89c952e0")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 100.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e900281-2dc7-4809-93c4-494ebcd5bdb7")
+	)
+	(wire
+		(pts
+			(xy 80.01 73.66) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f69878-1a21-4b13-95ba-d2ee0b33c5a8")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 173.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a42c59a-eaf6-43a2-8710-910506a949eb")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 100.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42814897-a96f-4e6d-8514-0f540ce2fa1a")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45eb193a-d1c5-4b91-bbf5-6acfcc0f7634")
+	)
+	(wire
+		(pts
+			(xy 78.74 57.15) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a93fba8-d5bd-409a-8b30-a8b44d1729f5")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 102.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae0ac03-cd42-49cc-9f18-c6c8cdee9253")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.53) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffab0fb-1c55-4dc4-99ed-3e90a9f0d12b")
+	)
+	(wire
+		(pts
+			(xy 66.04 78.74) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "60ec524b-3ee5-4983-aa72-c78131781a7e")
+	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617beacb-b339-46f9-a1ac-766200e4e679")
 	)
 	(wire
 		(pts
@@ -1620,6 +2040,36 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 35.56) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634b4fe3-4106-4a83-a0d6-b42cea52455a")
+	)
+	(wire
+		(pts
+			(xy 95.25 74.93) (xy 101.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68629ef3-280a-473a-a34d-c60661478a7d")
+	)
+	(wire
+		(pts
+			(xy 102.87 78.74) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f27425-c68f-4ceb-b63e-c2d5a3706596")
+	)
+	(wire
+		(pts
 			(xy 184.15 71.12) (xy 176.53 71.12)
 		)
 		(stroke
@@ -1630,13 +2080,33 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 73.66) (xy 102.87 73.66)
+			(xy 80.01 73.66) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79610cc4-b417-4b5e-911d-a5a7014b115a")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798a2222-328c-440d-a730-142d119d04fe")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 100.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e9c1c4-6b60-4eb3-917a-f3abca6991a2")
 	)
 	(wire
 		(pts
@@ -1660,13 +2130,43 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 88.9) (xy 93.98 90.17)
+			(xy 86.36 83.82) (xy 86.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88156d4f-4188-4ecc-995a-3fc4eb6f2a47")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 66.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881751c2-5ba4-49b3-922f-8d8a3d37820f")
+	)
+	(wire
+		(pts
+			(xy 80.01 88.9) (xy 80.01 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b678022-efab-4e6d-9018-5659af30a4fc")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 100.33 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4e5478-8356-4d68-9262-c18b32607473")
 	)
 	(wire
 		(pts
@@ -1680,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 71.12) (xy 80.01 78.74)
+			(xy 66.04 71.12) (xy 66.04 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1720,6 +2220,36 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 83.82) (xy 86.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22ceac9-e148-45b3-990c-313fc98d53e1")
+	)
+	(wire
+		(pts
+			(xy 101.6 74.93) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd645aa-78be-4f66-a6b5-262d63142ee0")
+	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdff7f8b-df7f-43e8-b3cc-0fd7107feeba")
+	)
+	(wire
+		(pts
 			(xy 100.33 68.58) (xy 100.33 71.12)
 		)
 		(stroke
@@ -1730,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 88.9) (xy 80.01 91.44)
+			(xy 66.04 88.9) (xy 66.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1740,13 +2270,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 78.74) (xy 83.82 78.74)
+			(xy 66.04 78.74) (xy 69.85 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5631b6b-0107-4443-bd3d-27d3295556e5")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 66.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62f57d9-5583-481a-8bb6-d3318a55a81c")
 	)
 	(wire
 		(pts
@@ -1760,16 +2300,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 80.01 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e045d55d-d4b3-4356-a511-29edceec3c60")
-	)
-	(wire
-		(pts
 			(xy 69.85 25.4) (xy 81.28 25.4)
 		)
 		(stroke
@@ -1778,9 +2308,40 @@
 		)
 		(uuid "eafb7ab9-7ab9-48d4-b556-3dba55c254f6")
 	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed06f645-2359-486f-847d-f7176536f73a")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef616a1-70c9-478b-b724-def08cc12c1d")
+	)
+	(hierarchical_label "Vbatt"
+		(shape input)
+		(at 101.6 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9327e2c8-1621-48a2-9a01-3555a3f52312")
+	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 77.47 71.12 180)
+		(at 50.8 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1789,9 +2350,106 @@
 		)
 		(uuid "d7de59e1-783b-439f-8ff4-7dd3cafd46a3")
 	)
+	(hierarchical_label "Vsys"
+		(shape input)
+		(at 173.99 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbd38e3e-4439-4333-8305-9a11fefae757")
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 78.74 52.07 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01708fbb-e4a5-47ab-a386-2e23899b597d")
+		(property "Reference" "Q2"
+			(at 78.74 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 78.74 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.835 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 74.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 78.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ff7f1427-f3f2-4e33-b4ba-dbb05846580f")
+		)
+		(pin "1"
+			(uuid "1c89776f-8332-4497-bd1d-27dedf3488e9")
+		)
+		(pin "2"
+			(uuid "7c9d1e4b-ecf9-4f92-88f4-3132e0aff387")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 86.36 78.74 90)
+		(at 72.39 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1802,7 +2460,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b2c1b79-8bf7-4aa8-b490-cc194161758d")
 		(property "Reference" "R7"
-			(at 86.36 73.66 90)
+			(at 72.39 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1812,7 +2470,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 86.36 76.2 90)
+			(at 72.39 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1822,7 +2480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 78.74 0)
+			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,7 +2491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 78.74 0)
+			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +2502,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 86.36 78.74 0)
+			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1871,7 +2529,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 93.98 90.17 0)
+		(at 80.01 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1882,7 +2540,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e48e21c-2568-4105-9eb8-9f6e99604d72")
 		(property "Reference" "#PWR015"
-			(at 93.98 96.52 0)
+			(at 80.01 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,7 +2551,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 93.98 95.25 0)
+			(at 80.01 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1903,7 +2561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 90.17 0)
+			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +2572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 90.17 0)
+			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,7 +2583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 93.98 90.17 0)
+			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1942,6 +2600,88 @@
 			(project "sodiumBMS"
 				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 99.06 99.06 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64d0cfa9-c67d-4552-baf1-d4ba2d9038e2")
+		(property "Reference" "C10"
+			(at 96.52 97.7962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 96.52 100.3362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2de62f75-66cb-4160-82a1-c3fe18be1587")
+		)
+		(pin "2"
+			(uuid "a17a1f01-1174-429b-b288-e075694bb3d8")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2026,8 +2766,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 102.87 43.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d45fa77-271a-47a2-84d1-88da5ea6cfb5")
+		(property "Reference" "Q3"
+			(at 96.52 44.4501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 96.52 41.9101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 97.79 45.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 97.79 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 102.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0bea551-5ff1-4dae-b17a-b79aee4a2095")
+		)
+		(pin "3"
+			(uuid "b2189903-ceb3-4e14-901d-d4768100c774")
+		)
+		(pin "2"
+			(uuid "75b289cb-9f16-455e-8a11-2c49cee555e5")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 80.01 86.36 0)
+		(at 66.04 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2038,7 +2866,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dc0f8fc-690b-4930-b548-7af25e7e3b7e")
 		(property "Reference" "C7"
-			(at 82.55 85.0962 0)
+			(at 68.58 85.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2049,6 +2877,88 @@
 			)
 		)
 		(property "Value" "10uF"
+			(at 68.58 87.6362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcad07e0-57f7-4892-925e-9b9d76215d0d")
+		)
+		(pin "2"
+			(uuid "ea651bd5-ab2d-49a3-a5da-a9ad607968cd")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 80.01 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8560c97-9bed-4ff5-9914-c5fc902f6c8e")
+		(property "Reference" "C8"
+			(at 82.55 85.0962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
 			(at 82.55 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,88 +3003,6 @@
 			)
 		)
 		(pin "1"
-			(uuid "bcad07e0-57f7-4892-925e-9b9d76215d0d")
-		)
-		(pin "2"
-			(uuid "ea651bd5-ab2d-49a3-a5da-a9ad607968cd")
-		)
-		(instances
-			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 93.98 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8560c97-9bed-4ff5-9914-c5fc902f6c8e")
-		(property "Reference" "C8"
-			(at 96.52 85.0962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 96.52 87.6362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
 			(uuid "36c09d12-5adc-45aa-b0ee-898abb17d891")
 		)
 		(pin "2"
@@ -2191,7 +3019,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 105.41 41.91 0)
+		(at 66.04 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2202,29 +3030,27 @@
 		(fields_autoplaced yes)
 		(uuid "bc547648-3274-4a04-b960-7f744daf4a42")
 		(property "Reference" "Q1"
-			(at 111.76 40.6399 0)
+			(at 66.04 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 111.76 43.1799 0)
+			(at 66.04 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 110.49 43.815 0)
+			(at 67.945 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2237,7 +3063,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 110.49 45.72 0)
+			(at 69.85 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2249,7 +3075,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 105.41 41.91 0)
+			(at 66.04 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2429,8 +3255,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 80.01 91.44 0)
+		(lib_id "Device:C_Small")
+		(at 95.25 77.47 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2438,31 +3265,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce670f87-29eb-44e3-a63c-ecef76d7b9b0")
-		(property "Reference" "#PWR012"
-			(at 80.01 96.52 0)
-			(hide yes)
+		(uuid "cc1eb716-d1b8-4e9e-9281-e2296dcad239")
+		(property "Reference" "C9"
+			(at 92.71 76.2062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 79.883 95.25 0)
+		(property "Value" "0.1uF"
+			(at 92.71 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 92.71 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +3300,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 92.71 0)
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7096cf08-606c-4034-b213-d02260fb7d19")
+		)
+		(pin "2"
+			(uuid "2521a66a-d27e-40e0-a88d-4369f57ad66b")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 66.04 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce670f87-29eb-44e3-a63c-ecef76d7b9b0")
+		(property "Reference" "#PWR012"
+			(at 66.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 65.913 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,7 +3392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 80.01 91.44 0)
+			(at 66.04 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2657,6 +3565,166 @@
 			(project "sodiumBMS"
 				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 99.06 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e11a9eef-55fe-4aae-9091-460393c4176d")
+		(property "Reference" "#PWR016"
+			(at 99.06 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 99.06 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 99.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a6884c1-6a38-4978-9ac7-8da95b300463")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 86.36 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f03963d2-c827-47be-b08d-b72ccd9117ce")
+		(property "Reference" "R9"
+			(at 88.9 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k"
+			(at 88.9 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48fdaf55-6fa2-44c3-90eb-4a8e90b78cca")
+		)
+		(pin "1"
+			(uuid "96e959f0-9114-4ee0-9607-48bdeaad2e68")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+					(reference "R9")
 					(unit 1)
 				)
 			)
