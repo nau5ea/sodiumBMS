@@ -3679,6 +3679,16 @@
 		)
 		(uuid "5baf78f1-286e-4a8c-8949-77d3d7a48d21")
 	)
+	(text "need to remove this because \nthe LDO will no longer work,\nprobably can get 5 or 3.3V from CYPD"
+		(exclude_from_sim no)
+		(at 163.83 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b3905df-b104-4c27-a676-1aea11478d32")
+	)
 	(text "note: out_switch can still \nbe used as output I believe\nit is pulled to ground only \nat start up for programming"
 		(exclude_from_sim no)
 		(at 145.796 134.874 0)
@@ -3823,12 +3833,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc70cc49-7ce2-43c8-aed0-f30e3861feed")
-	)
-	(junction
-		(at 163.83 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5cb6486-4465-4eb4-a7fb-37404c566f95")
 	)
 	(junction
 		(at 72.39 41.91)
@@ -4065,16 +4069,6 @@
 			(type default)
 		)
 		(uuid "1ca45bf6-8378-4188-979a-8afe327b6b4e")
-	)
-	(wire
-		(pts
-			(xy 167.64 105.41) (xy 163.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d222051-370b-4d3e-8df3-638fa3c87fa1")
 	)
 	(wire
 		(pts
@@ -4318,16 +4312,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 107.95) (xy 179.07 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44677456-299d-4bc3-a6b5-6ca0428ac954")
-	)
-	(wire
-		(pts
 			(xy 72.39 44.45) (xy 73.66 44.45)
 		)
 		(stroke
@@ -4428,16 +4412,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 163.83 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5883d54c-60ac-4f65-86f2-ed08c19b8afb")
-	)
-	(wire
-		(pts
 			(xy 149.86 78.74) (xy 168.91 78.74)
 		)
 		(stroke
@@ -4455,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "5cfde34e-5875-4e51-8fcb-ce0a4fa70940")
-	)
-	(wire
-		(pts
-			(xy 163.83 105.41) (xy 163.83 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d767966-1f1a-4a53-861c-3d44a2cfc04a")
 	)
 	(wire
 		(pts
@@ -4735,16 +4699,6 @@
 			(type default)
 		)
 		(uuid "9224c026-15e6-4c07-8015-e585c00cfb7f")
-	)
-	(wire
-		(pts
-			(xy 158.75 106.68) (xy 163.83 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94959012-831e-4578-ae5b-f6be3cd261bf")
 	)
 	(wire
 		(pts
@@ -5028,16 +4982,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 107.95) (xy 158.75 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc6f90b-63dd-4f65-a33c-51c16616f269")
-	)
-	(wire
-		(pts
 			(xy 73.66 76.2) (xy 80.01 76.2)
 		)
 		(stroke
@@ -5135,16 +5079,6 @@
 			(type default)
 		)
 		(uuid "e1fa9dd5-2c41-4b3d-85cb-8a22017bb2ea")
-	)
-	(wire
-		(pts
-			(xy 172.72 105.41) (xy 179.07 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4386105-d3ff-488e-a7e6-71baf459b28d")
 	)
 	(wire
 		(pts
@@ -5258,16 +5192,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 107.95) (xy 167.64 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98804d9-82af-4170-8039-a2fe4efca688")
-	)
-	(wire
-		(pts
 			(xy 90.17 114.3) (xy 96.52 114.3)
 		)
 		(stroke
@@ -5295,6 +5219,78 @@
 			(type default)
 		)
 		(uuid "fe411c65-7b8d-43e6-9d90-166d09613619")
+	)
+	(global_label "CC2"
+		(shape input)
+		(at 179.07 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03395569-bcb0-405f-9e74-5e0f0caeee75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.3353 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CC1"
+		(shape input)
+		(at 179.07 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0923d4b9-c305-4292-a713-bc06497d5c0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.3353 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 133.35 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d2bd96b-7e27-4dfd-bc46-5e9a67513ddf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.9033 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "cell2"
 		(shape output)
@@ -5632,6 +5628,30 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 133.35 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfbd2425-0de4-4c0a-9f35-3c3810c112fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.8428 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "cell3"
 		(shape output)
 		(at 90.17 46.99 0)
@@ -5669,6 +5689,30 @@
 		(uuid "ef051657-52cf-4ff5-9a19-9c6fd174f4bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.2489 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS_IN"
+		(shape input)
+		(at 161.29 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef26c5a9-3be3-41a9-8bcd-a31d3140f0c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.0767 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,85 +6155,6 @@
 			(project "sodiumBMS"
 				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 170.18 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43380861-de09-4a50-816b-bab927b585a9")
-		(property "Reference" "R21"
-			(at 170.434 103.124 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 170.18 100.838 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 170.18 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce61f9a6-3a16-4544-8d25-773ad6a5b685")
-		)
-		(pin "1"
-			(uuid "aedb0022-2da9-4dd4-9dcc-33c00f4e0af4")
-		)
-		(instances
-			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7095,85 +7060,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 170.18 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7563cdc8-4e39-46ea-8831-6a498081c45f")
-		(property "Reference" "R20"
-			(at 170.18 112.522 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 170.18 110.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0393cc1d-9709-4aa0-b599-44eeb757ad71")
-		)
-		(pin "1"
-			(uuid "4e72dba5-12ce-44ac-8ec9-d8897c5a03b1")
-		)
-		(instances
-			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 195.58 76.2 270)
 		(unit 1)
 		(body_style 1)
@@ -7487,83 +7373,6 @@
 			(project "sodiumBMS"
 				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8909aaff-fce9-4a55-a145-a44ae05180d9")
-		(property "Reference" "#PWR028"
-			(at 158.75 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.528 112.014 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef9572e0-f7df-49de-9e5b-64b3499ff478")
-		)
-		(instances
-			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
