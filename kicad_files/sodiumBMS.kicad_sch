@@ -5556,6 +5556,30 @@
 			)
 		)
 	)
+	(global_label "PD_FAULT"
+		(shape input)
+		(at 133.35 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcdab5ca-6bdd-4359-bfd2-9950117bdfc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.3462 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "pack+"
 		(shape output)
 		(at 90.17 44.45 0)
@@ -8548,7 +8572,7 @@
 		)
 	)
 	(sheet
-		(at 218.186 21.59)
+		(at 232.156 22.86)
 		(size 36.576 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8564,7 +8588,7 @@
 		)
 		(uuid "1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f")
 		(property "Sheetname" "Charging and Balancing"
-			(at 218.186 20.8784 0)
+			(at 232.156 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8575,7 +8599,7 @@
 			)
 		)
 		(property "Sheetfile" "charging.kicad_sch"
-			(at 218.186 53.9246 0)
+			(at 232.156 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

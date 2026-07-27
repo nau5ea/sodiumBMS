@@ -4026,6 +4026,30 @@
 			)
 		)
 	)
+	(global_label "PD_FAULT"
+		(shape input)
+		(at 245.11 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ddebb83-0b31-408f-b579-b9f2b6d61de5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 87.0638 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CC1"
 		(shape input)
 		(at 254 137.16 0)
