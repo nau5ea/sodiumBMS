@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "42388d76-3ce0-4494-b6c4-2140b630a79e")
 	(paper "A4")
 	(lib_symbols
@@ -4264,17 +4264,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "ff7f1427-f3f2-4e33-b4ba-dbb05846580f")
+			(uuid "be52ab3a-d0c9-47a5-8f1e-db19d8cf425b")
 		)
 		(pin "1"
-			(uuid "1c89776f-8332-4497-bd1d-27dedf3488e9")
+			(uuid "c3eff5b4-ac0d-4e6b-8679-4ec7838cbd6e")
 		)
 		(pin "2"
-			(uuid "7c9d1e4b-ecf9-4f92-88f4-3132e0aff387")
+			(uuid "0dbf581b-2b28-488f-884f-91bac6587032")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -4293,7 +4293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13291d2d-aed4-4551-af4f-97a8919a0975")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 255.27 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4349,15 +4349,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "953f9a62-8ac1-4c7d-a7b6-c7fde82ab007")
+			(uuid "2ac3ec28-cd0b-4017-8bf8-1769a3ffcd36")
 		)
 		(pin "1"
-			(uuid "5c05a402-93bc-40a8-92d4-fc8208338244")
+			(uuid "21af1248-9685-482b-b20b-a633de399c0c")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "R28")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4430,11 +4430,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "90035740-b65c-46d9-8a94-c4fafba97db7")
+			(uuid "d0258137-c7fb-456e-b6b4-f386503b18f3")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -4508,11 +4508,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "fffeeeaf-3142-4f92-bc6d-15c4a5d30fe8")
+			(uuid "cbfb6dcc-c226-468a-ba98-6c1f0ceaa647")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -4531,7 +4531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2884dffa-77d1-4540-bfe1-20d66e3ad224")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 213.36 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,15 +4587,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5b59631f-fe6c-4ef8-a241-b3fb76ab3a5b")
+			(uuid "bd4f7076-13e1-49b2-bb94-a2e0ab124229")
 		)
 		(pin "1"
-			(uuid "53238d93-ac79-4c3a-b07a-96e33abde660")
+			(uuid "3457f931-2208-487d-8d9f-10453d877001")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "R13")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4668,11 +4668,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "72fbef65-4b62-451e-9c3b-0e09b14675ce")
+			(uuid "33859c14-e19f-46ee-b6eb-db02d2bb4a1d")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -4691,7 +4691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "489fa261-35eb-4ada-a27c-aac0c5602fee")
-		(property "Reference" "R26"
+		(property "Reference" "R20"
 			(at 243.84 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,15 +4747,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "66049600-bce3-4039-b72d-98b947814cde")
+			(uuid "8609303b-019f-431a-b27e-030ba7271a1b")
 		)
 		(pin "1"
-			(uuid "26b6768c-8371-4b48-b382-f0da0dcae628")
+			(uuid "050e358d-eae5-4dbc-bd61-9ed63167f05a")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "R26")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4828,11 +4828,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "da7d627a-f69f-4f22-bf2d-6e87aa7ec266")
+			(uuid "a11827ff-cdc4-479f-8737-3b687ad85c38")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -4906,11 +4906,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4135d21-d80f-4d33-a275-6d8f65a94418")
+			(uuid "0ee9dcf2-a44c-43d9-8fd1-f8045f9527de")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -4929,7 +4929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4edeca09-cbe0-459f-813d-9f9d241923cd")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 229.87 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,15 +4985,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d43d4fc4-2890-44a4-bceb-aba878b7ebad")
+			(uuid "703326e8-2156-4660-9a1d-d600f14a1ecb")
 		)
 		(pin "1"
-			(uuid "2dd647ff-f186-46a5-944a-2b7845ef61c4")
+			(uuid "6080bc26-182a-4dc7-86ba-ba8e27441c1f")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "R11")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5065,14 +5065,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "10bfa079-f33c-43a2-83c5-64f17a374271")
+			(uuid "eb0c6895-ba4a-4178-8716-29c14462b82d")
 		)
 		(pin "1"
-			(uuid "5b8048f8-75b7-4c47-a5bd-2e12c8209189")
+			(uuid "681c42cf-8374-4598-8eaf-8e54db7b765c")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "R7")
 					(unit 1)
 				)
@@ -5146,11 +5146,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ce47a78-6613-4aa6-884f-b2fe6cd677b4")
+			(uuid "7df1d5c7-5c9d-4fe2-9b63-8224f5e4d467")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -5225,14 +5225,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2de62f75-66cb-4160-82a1-c3fe18be1587")
+			(uuid "6a248671-dd68-4ab9-b159-a602c2234258")
 		)
 		(pin "2"
-			(uuid "a17a1f01-1174-429b-b288-e075694bb3d8")
+			(uuid "03ed82e1-9ed9-4a24-b880-bed4abdee4ff")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "C10")
 					(unit 1)
 				)
@@ -5305,17 +5305,17 @@
 			)
 		)
 		(pin "G"
-			(uuid "4967d93f-9b7d-402a-8b9e-b367c363fc7f")
+			(uuid "295c0078-bf88-4e1b-97e1-84c38933e81a")
 		)
 		(pin "S"
-			(uuid "e212dffa-3f43-4820-9930-a2b33159f55c")
+			(uuid "a1c620ee-91a7-405e-9b0c-2036a034d546")
 		)
 		(pin "D"
-			(uuid "a4dc71e9-ac6d-4281-a6dd-6f7986614072")
+			(uuid "80574d49-2622-406f-894a-2dda2790ba98")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "Q5")
 					(unit 1)
 				)
@@ -5390,14 +5390,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "7ca3c0a8-0ba3-4ac3-8395-f37ec5620815")
+			(uuid "94f52ced-bddf-4482-8ada-9008db202179")
 		)
 		(pin "1"
-			(uuid "37eb43a5-3be9-4767-a41f-0ba99cfd816e")
+			(uuid "6180ec84-0595-4e2e-9917-1bfb193f3620")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "R15")
 					(unit 1)
 				)
@@ -5416,7 +5416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "780ea9f3-9018-4bda-996a-d166a40f6e82")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 229.87 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,15 +5472,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f14b93c6-476f-412c-b37f-ebf9ad841132")
+			(uuid "baeac28c-404d-4053-bbf0-b433c0977b16")
 		)
 		(pin "1"
-			(uuid "e5e1c143-efb6-40d5-972d-c13e7c3ed008")
+			(uuid "13ad1629-0309-4fe4-9d26-282ecd239d35")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "R10")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5553,11 +5553,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a49d69eb-8e52-4bad-a902-7e768cfc454f")
+			(uuid "b7733ec2-2d4b-49af-9a0b-7427b95ef17f")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -5635,17 +5635,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0bea551-5ff1-4dae-b17a-b79aee4a2095")
+			(uuid "169791f0-1b99-4003-b7c3-8ef259ff2faf")
 		)
 		(pin "3"
-			(uuid "b2189903-ceb3-4e14-901d-d4768100c774")
+			(uuid "8ab69cf2-994a-4c6d-9929-078772e000b4")
 		)
 		(pin "2"
-			(uuid "75b289cb-9f16-455e-8a11-2c49cee555e5")
+			(uuid "6abd3258-031d-4912-b1c1-6fe1995aad25")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "Q3")
 					(unit 1)
 				)
@@ -5720,14 +5720,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bcad07e0-57f7-4892-925e-9b9d76215d0d")
+			(uuid "f177e71b-bc02-4efe-9ca2-d77c2225b958")
 		)
 		(pin "2"
-			(uuid "ea651bd5-ab2d-49a3-a5da-a9ad607968cd")
+			(uuid "7a360393-6554-4a16-9f15-ad97b4a2568c")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "C7")
 					(unit 1)
 				)
@@ -5746,7 +5746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b267e110-ef9f-4b6c-8fd3-0a443f01a38b")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 213.36 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5802,15 +5802,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f17f42f-34cd-4bc8-a07b-ba25235ab78a")
+			(uuid "0d41d496-2033-46af-bc9d-f50ece896e78")
 		)
 		(pin "1"
-			(uuid "3b5725fd-65c8-4551-b00c-ab3c0631ac80")
+			(uuid "8a3335c2-f288-4e41-9c7a-7650d8cdc7fa")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "R12")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5884,14 +5884,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "36c09d12-5adc-45aa-b0ee-898abb17d891")
+			(uuid "3573de0d-f1ca-4950-8420-dd0822aae8b6")
 		)
 		(pin "2"
-			(uuid "f5eb3cc3-ae8b-44e0-b992-fbaba951bcb6")
+			(uuid "813e22ab-b34b-477c-8f30-4a7c0de95916")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "C8")
 					(unit 1)
 				)
@@ -5967,17 +5967,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "bf21e060-f7db-447b-9ea5-9056f0067bec")
+			(uuid "93024d5d-bd02-4f86-ae33-6566821cfeea")
 		)
 		(pin "1"
-			(uuid "e3da1ff0-9260-4e78-959e-af388a4a899c")
+			(uuid "eb6f47a5-a2b9-492b-bc71-2f97350008bd")
 		)
 		(pin "2"
-			(uuid "5c196c50-9c79-4342-9655-2751f670a2d2")
+			(uuid "f326e1b6-8350-40f0-99e6-bafd17c0f2ce")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -6051,14 +6051,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "30afbab1-74d1-43f3-a1ac-d00ce8d3b3c2")
+			(uuid "5edf3c10-50f2-406a-97bf-fec0a0cb3621")
 		)
 		(pin "2"
-			(uuid "09a92cf4-e64f-48cc-b672-08d40f618fa7")
+			(uuid "2e81cc05-6fa1-453f-9778-5eea8f7f2af2")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "C11")
 					(unit 1)
 				)
@@ -6133,83 +6133,83 @@
 			)
 		)
 		(pin "21"
-			(uuid "809331ce-e846-41d8-8e11-d4c38075b9e5")
+			(uuid "ecb046d5-808a-4c29-a1a8-4a3bac9fbe1b")
 		)
 		(pin "24"
-			(uuid "621cb117-6e5b-452d-873b-dc22b0568704")
+			(uuid "3a6a4805-c0e4-4fdf-ac62-8803c38ab3fe")
 		)
 		(pin "23"
-			(uuid "d5591062-9768-4465-9905-e1a4c6e4d190")
+			(uuid "9ff188de-9f31-46f4-b996-d0e21bd719b7")
 		)
 		(pin "22"
-			(uuid "7011ff03-9226-4955-a575-80535989ed72")
+			(uuid "d44ecc8c-2078-4072-944e-ca2826615325")
 		)
 		(pin "25"
-			(uuid "5ae54b78-b9c3-4318-811b-6ac96a329b13")
+			(uuid "3dd6c368-d5d1-48f2-910b-dfbdc09f22d9")
 		)
 		(pin "1"
-			(uuid "7ade6847-26d4-4351-96a3-36799470b186")
+			(uuid "e01e4dbe-d8b4-4ff8-917c-45dbb63cb191")
 		)
 		(pin "2"
-			(uuid "7338dc82-c150-4cf3-96db-b9257ca1a1ce")
+			(uuid "8805398e-77b9-47b0-bfd1-ac4912a4182f")
 		)
 		(pin "3"
-			(uuid "5f06c6c7-a141-412f-9a9b-496e23734316")
+			(uuid "3e030917-e7ec-4e43-abd8-fe749f9a2f19")
 		)
 		(pin "7"
-			(uuid "6f533c89-a04d-467a-a5d2-85c233fa0e4d")
+			(uuid "3c5048b8-5b14-4558-86c2-233247bdd55e")
 		)
 		(pin "8"
-			(uuid "69cef7ab-d0d6-4416-a3da-935749548cfc")
+			(uuid "3fb8133a-4b53-4b09-8f03-e2f973df2799")
 		)
 		(pin "9"
-			(uuid "4a4b5ab3-9154-4e3a-a933-b6e6489ca469")
+			(uuid "7d95d61a-69f3-482f-8c75-0ae4f5fa5ab7")
 		)
 		(pin "5"
-			(uuid "91a7a3c7-1b6f-4a09-b8c0-5d4e2f4cc680")
+			(uuid "273b329b-3ad9-49b6-93d4-589cc7aaf8ca")
 		)
 		(pin "6"
-			(uuid "5e0b8640-cd56-4220-a934-69afc1eea645")
+			(uuid "904a7817-1e45-4c32-b567-f2176a757cc4")
 		)
 		(pin "4"
-			(uuid "38923aa6-b536-4729-a405-fb13e34a6f99")
+			(uuid "1f40732d-26a4-454e-bc85-a6a2cf0cfce9")
 		)
 		(pin "13"
-			(uuid "f6f7b242-af24-440e-9ab0-37b973ed9b15")
+			(uuid "4df2acf3-d13a-461a-bc0b-2ba13dd64d36")
 		)
 		(pin "17"
-			(uuid "22f5f44c-6cc5-472a-9d42-16da89b51652")
+			(uuid "60049a94-840e-4a2a-b491-511413a7d0df")
 		)
 		(pin "20"
-			(uuid "c6ca9e66-55ad-48d8-9bd3-d86585d38a1b")
+			(uuid "d5be3d4e-954a-4e6a-8d8b-55f0afc05f68")
 		)
 		(pin "10"
-			(uuid "578bb20b-713e-4ec6-832d-644e8b7bafb7")
+			(uuid "b0c5359a-d83e-4d23-bd1c-4c991af8846c")
 		)
 		(pin "14"
-			(uuid "0576029b-54e1-4a19-8e88-cecc4b13ba01")
+			(uuid "17760877-f1e2-4f91-b6df-309e224e270f")
 		)
 		(pin "12"
-			(uuid "199a6c23-bb98-4e1b-8d98-4e7eaf08ec55")
+			(uuid "b792e588-3be8-4a96-9d57-5c755524de0b")
 		)
 		(pin "15"
-			(uuid "2b1fa63d-8912-4727-b503-af827c50104b")
+			(uuid "0f758d25-0e37-4a5b-9b29-303333e1c027")
 		)
 		(pin "18"
-			(uuid "3452f555-0097-487c-a1ff-e73587ae8b6d")
+			(uuid "fe28c157-dece-48ea-94d7-84cd69dd6b7a")
 		)
 		(pin "19"
-			(uuid "90d12807-14ec-4de8-b19e-1a3998dc7d8c")
+			(uuid "340ec357-51a9-4813-af21-9309a45d3229")
 		)
 		(pin "11"
-			(uuid "763b7404-53a3-45ee-b70f-22c48e430763")
+			(uuid "40a82cab-fdcf-44ad-af85-47317a4ad68e")
 		)
 		(pin "16"
-			(uuid "9dd5bbd4-b682-4cb0-bf06-27373834e155")
+			(uuid "65e3842e-e500-4303-843e-7381b83801b5")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "U2")
 					(unit 1)
 				)
@@ -6283,14 +6283,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "91bc8ac5-657c-4889-be9f-e0d65fcb98e0")
+			(uuid "aab2b394-0d96-48d8-b0c0-9d477c48db90")
 		)
 		(pin "2"
-			(uuid "c550a223-8fe3-4af1-8be5-0fe2c6bd40a9")
+			(uuid "d23ccb41-d172-49bc-811f-916c23d2c0fe")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "R14")
 					(unit 1)
 				)
@@ -6365,14 +6365,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7096cf08-606c-4034-b213-d02260fb7d19")
+			(uuid "14abea6f-3e2b-4eb5-a5d6-3fb177b146c7")
 		)
 		(pin "2"
-			(uuid "2521a66a-d27e-40e0-a88d-4369f57ad66b")
+			(uuid "c7299552-c6d7-433f-8df2-9105c4b25f29")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "C9")
 					(unit 1)
 				)
@@ -6446,11 +6446,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "657c10ee-92b3-48c4-a33a-59a8cb1da4f2")
+			(uuid "53a6e954-1974-4146-8033-9f3f27a33f05")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -6524,11 +6524,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "331f2edd-00b4-4f65-8f83-3b874980ee83")
+			(uuid "446d5cfc-4b11-46a2-84a0-9ad11717ed09")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -6547,7 +6547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d194cfa5-6eda-456e-8cab-abe3e72e0911")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 255.27 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,15 +6603,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1f15552e-ff75-4c46-977e-47c49695ee46")
+			(uuid "7ccf481c-2e33-401e-a2e0-27bb88c68464")
 		)
 		(pin "1"
-			(uuid "dc077bb2-ee55-4581-a73a-d24e006702ca")
+			(uuid "8fc8c965-b00c-45a4-86f3-de4608925051")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
-					(reference "R27")
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6684,11 +6684,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1df8eaa7-54c2-4153-8b51-ecef6f8a2dbb")
+			(uuid "a88f7f89-a4bd-4d2e-a610-990cc4184fee")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -6762,11 +6762,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a6884c1-6a38-4978-9ac7-8da95b300463")
+			(uuid "366d53a0-e416-47cd-9144-2f416d051a38")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -6840,83 +6840,83 @@
 			)
 		)
 		(pin "17"
-			(uuid "f34b8f37-7fd4-45b1-9417-5ce959a4980a")
+			(uuid "ebbb354b-02c2-46d6-882f-a206ea922718")
 		)
 		(pin "18"
-			(uuid "d25719bc-968f-487d-8018-74df714cf6a5")
+			(uuid "95d458c7-0896-4d95-9df4-873d72c7cc45")
 		)
 		(pin "16"
-			(uuid "c5dea7cc-0baa-4df1-8425-4648542207ca")
+			(uuid "83d61f69-0a7e-43e5-82d3-e9f80d674ab4")
 		)
 		(pin "12"
-			(uuid "65914402-df49-49fa-8507-d8f30497472e")
+			(uuid "a73725d9-9e82-4671-8418-74a3ce9b38b5")
 		)
 		(pin "22"
-			(uuid "876ea7c3-e5d4-4711-b024-dc10e34ea243")
+			(uuid "fbf18dfd-f469-4346-9705-edf5d3a74c72")
 		)
 		(pin "4"
-			(uuid "7684c095-f888-4462-b090-e9227c6c1311")
+			(uuid "8c1b69db-b08e-4f6c-866a-0273e7ebe779")
 		)
 		(pin "3"
-			(uuid "8a78c861-5f93-4d81-a3d3-6c65563fe961")
+			(uuid "824a3214-6b18-4279-b111-21cb76c96fa2")
 		)
 		(pin "2"
-			(uuid "eb5b5a71-8785-458f-aeb4-9a5ed14dfed6")
+			(uuid "cb6ef8d3-c6a1-4792-a9ab-b4113478f841")
 		)
 		(pin "14"
-			(uuid "3aa49c31-a721-4fed-ba34-16f6947df0ef")
+			(uuid "d01b95a4-e873-42db-abb5-8b2a49cf2b88")
 		)
 		(pin "7"
-			(uuid "780f60c1-25c0-40e0-af7d-7bdd1b230122")
+			(uuid "f574ae3b-1bdd-4228-8f9d-ea8673761ddd")
 		)
 		(pin "6"
-			(uuid "3f91a9ed-7a53-4a94-be0e-3c6ede4ae635")
+			(uuid "f162cf65-0e21-4c26-a97a-f9d8f5bf8e8e")
 		)
 		(pin "5"
-			(uuid "e87e6757-1032-4a66-a32a-1bf23330d8d2")
+			(uuid "cbe539ed-3bf0-417c-8699-b80233f42cb6")
 		)
 		(pin "8"
-			(uuid "371cee89-f9bf-45ff-83c7-5277fe8b7583")
+			(uuid "8ab7eb9c-6afc-413b-84e1-9637d468d016")
 		)
 		(pin "25"
-			(uuid "8ed6abd3-8c1e-4e34-8e45-e71235dea3ec")
+			(uuid "27b43689-870d-4fc0-9607-3ed78e3c420f")
 		)
 		(pin "10"
-			(uuid "483f812b-1e86-46ad-b486-ab1a88981bef")
+			(uuid "686f7a80-d38e-47b8-8f0e-07d533841cea")
 		)
 		(pin "20"
-			(uuid "eb855c94-e6bb-42de-9138-1482e983f37c")
+			(uuid "f32d66e1-59b0-4238-994f-81e01bf5d535")
 		)
 		(pin "19"
-			(uuid "b3f6659e-1a6c-4d6f-a445-0dac635c6b2b")
+			(uuid "46c3988c-6720-40d5-9de4-b0de690553d6")
 		)
 		(pin "21"
-			(uuid "dcbb378f-bbd5-4517-b0a8-75db962131a1")
+			(uuid "9d5873c7-53bd-40a3-875b-36a3767f4c66")
 		)
 		(pin "15"
-			(uuid "73813a87-9514-402d-bccd-6b5588c7c369")
+			(uuid "bd81b393-220b-4ace-b050-e7a972e76764")
 		)
 		(pin "9"
-			(uuid "3e1f5644-7838-4b9b-97c1-deef55dbd28d")
+			(uuid "69583166-cd0a-482b-ae22-132a89d331aa")
 		)
 		(pin "1"
-			(uuid "de6d20ec-a6d6-41b0-a8bd-e15ce90fe802")
+			(uuid "b8e079df-56e6-4e5c-a4b1-a072d26e45cd")
 		)
 		(pin "11"
-			(uuid "8530191b-9736-4c9b-a501-bc45eac6a484")
+			(uuid "94fd7063-dccf-48f5-a769-9495df027440")
 		)
 		(pin "13"
-			(uuid "9926e9b7-e73a-4cdd-bf9f-aa8cb3ade091")
+			(uuid "ef0d677b-957a-45d1-9767-d04c9f805db7")
 		)
 		(pin "23"
-			(uuid "d1b150f4-0f8b-4a17-bd5f-b19a5aa938c2")
+			(uuid "e9f7bd09-b080-4a46-a468-fca9d3ffcc29")
 		)
 		(pin "24"
-			(uuid "e175f7c3-f6ec-4a4b-9600-5e0e41ea307a")
+			(uuid "9774fab0-52dd-40f8-9169-3490cc3027c1")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "U3")
 					(unit 1)
 				)
@@ -6991,14 +6991,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "48fdaf55-6fa2-44c3-90eb-4a8e90b78cca")
+			(uuid "f8c96923-3278-4669-81ee-54eaaccaf1d4")
 		)
 		(pin "1"
-			(uuid "96e959f0-9114-4ee0-9607-48bdeaad2e68")
+			(uuid "6a574f83-c2bd-4a15-ac91-8e144b9bed80")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "R9")
 					(unit 1)
 				)
@@ -7072,11 +7072,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3823fead-3f66-4aee-b760-e19c4aa345f8")
+			(uuid "906c6155-a4f3-4fcf-8bc6-0dd19ebda3ee")
 		)
 		(instances
 			(project "sodiumBMS"
-				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/1b7ae7cb-6ce5-4b44-9aa9-df27edf3853f"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
 					(reference "#PWR026")
 					(unit 1)
 				)
