@@ -8771,13 +8771,13 @@
 			)
 		)
 		(pin "IN" input
-			(at 259.08 25.4 0)
+			(at 223.52 27.94 180)
 			(uuid "0fd37121-9e52-464e-bd69-e89196f01cf5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "chg_out_cypd" input
@@ -8861,23 +8861,23 @@
 			)
 		)
 		(pin "Vsys" input
-			(at 259.08 48.26 0)
+			(at 223.52 35.56 180)
 			(uuid "9ee664cf-2c34-468a-86c8-096dd008bb91")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Vbatt" input
-			(at 259.08 50.8 0)
+			(at 223.52 31.75 180)
 			(uuid "5843f658-3078-4499-ac23-9c4aaf928b24")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
