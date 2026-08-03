@@ -4462,6 +4462,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 40.64) (xy 264.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f83034d-ce2a-4557-916d-f1547c68c05e")
+	)
+	(wire
+		(pts
 			(xy 96.52 114.3) (xy 96.52 110.49)
 		)
 		(stroke
@@ -4559,6 +4569,16 @@
 			(type default)
 		)
 		(uuid "6e019f11-e581-43cb-8594-996fbb30e190")
+	)
+	(wire
+		(pts
+			(xy 259.08 38.1) (xy 264.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727bb0af-3560-4da7-8a16-84b20140424f")
 	)
 	(wire
 		(pts
@@ -5310,6 +5330,16 @@
 		)
 		(uuid "5ce5a9d7-669e-4aca-9bc8-207edf4513ea")
 	)
+	(label "SDA"
+		(at 264.16 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a913082-4bd7-4732-be58-6fa3b20aec73")
+	)
 	(label "CC1"
 		(at 179.07 105.41 180)
 		(effects
@@ -5319,6 +5349,16 @@
 			(justify right bottom)
 		)
 		(uuid "a5ce1e9d-9584-480b-9879-b213e26f24ad")
+	)
+	(label "SCL"
+		(at 264.16 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f29c6049-75b8-4fbd-b802-b4750e1add29")
 	)
 	(global_label "cell2"
 		(shape output)
