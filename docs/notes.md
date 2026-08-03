@@ -21,8 +21,13 @@ MUST USE P CHANNEL FET, possible with another fet before it for the external swi
 after discussion, soham and i decided to investigate using USB-PD to supply a higher voltage directly into our device rather than figure out a boost converter and then additional charging circuitry for current control at 12V.
 using PD means we can have a 15V supply to a buck converter that will be able to supply a controlled pack charge current with less additional circuitry.
 
-we can either use a discrete PD controller or switch to an MCU that supports PD natively (preferred for parts simplicity).
+we can either use a discrete PD controller or switch to an MCU that supports PD natively. the second option is slightly more of a stretch, so we will look into it when we do our cost optimization in the future. in the meantime we'll use STUSB4500.
 
 the available STM32 MCUs with PD support are the G0B1, G071, G0C1 and G081 (which each have 1 19-channel ADC at 2.5MSps), a few others which are very computationally capable and probably excessive for our application, and the STM32L5 which has 2 ADCs. the G4x1 series also has multiple ADCs and seems cost efficient.
 
 i think our best option in terms of native PD MCUs is the G0B1, and it comes recommended by orangeben so it must be good. we will just have to rearrange our ADC accesses in the main loop but that shouldn't be too hard
+
+STUSB4500 communicates over i2c, 
+
+
+we will use the bq2417x from TI for the actual charging part, once we have the supply out of the PD IC

@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "fcdd2084-f4ec-4b1b-b9ac-497c327c0303")
 	(paper "A4")
 	(lib_symbols
@@ -3972,6 +3972,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 43.18) (xy 264.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e4153c-5e37-42da-95ae-379e2de42f1b")
+	)
+	(wire
+		(pts
 			(xy 138.43 128.27) (xy 144.78 128.27)
 		)
 		(stroke
@@ -4049,6 +4059,16 @@
 			(type default)
 		)
 		(uuid "18f3a890-5fac-499b-8f37-2c2846a3a087")
+	)
+	(wire
+		(pts
+			(xy 133.35 143.51) (xy 134.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab4f137-cf36-405f-8192-096cbc438fc1")
 	)
 	(wire
 		(pts
@@ -4179,6 +4199,16 @@
 			(type default)
 		)
 		(uuid "29b5f65c-b762-4dfb-8ff3-94bff0717a52")
+	)
+	(wire
+		(pts
+			(xy 133.35 146.05) (xy 134.62 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d84adfa-b28a-49cd-9e6d-3393c1eeb25a")
 	)
 	(wire
 		(pts
@@ -5230,6 +5260,46 @@
 		)
 		(uuid "fe411c65-7b8d-43e6-9d90-166d09613619")
 	)
+	(label "SDA"
+		(at 134.62 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0009f7c4-00e4-4321-b701-939249d47404")
+	)
+	(label "SCL"
+		(at 134.62 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24812214-7f87-4ad9-a6a3-85cb7bf65f28")
+	)
+	(label "CC2"
+		(at 264.16 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3acd95bb-309e-4bf1-8f43-a6f32beeacbc")
+	)
+	(label "CC2"
+		(at 179.07 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58dfe777-f01c-4188-bb55-9582bb7e2146")
+	)
 	(label "CC1"
 		(at 264.16 45.72 0)
 		(effects
@@ -5249,54 +5319,6 @@
 			(justify right bottom)
 		)
 		(uuid "a5ce1e9d-9584-480b-9879-b213e26f24ad")
-	)
-	(global_label "CC2"
-		(shape input)
-		(at 179.07 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03395569-bcb0-405f-9e74-5e0f0caeee75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.3353 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 133.35 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d2bd96b-7e27-4dfd-bc46-5e9a67513ddf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.9033 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "cell2"
 		(shape output)
@@ -5655,30 +5677,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 133.35 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cfbd2425-0de4-4c0a-9f35-3c3810c112fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.8428 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
