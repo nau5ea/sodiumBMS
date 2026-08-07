@@ -4825,7 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 237.49 99.06)
+			(xy 237.49 96.52) (xy 237.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5627,7 +5627,7 @@
 	)
 	(hierarchical_label "chg_out_cypd"
 		(shape input)
-		(at 242.57 82.55 0)
+		(at 251.46 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8049,6 +8049,88 @@
 		)
 	)
 	(symbol
+		(lib_id "R_Small:R_Small")
+		(at 237.49 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e62560b-d0e8-4554-bd4a-5dd66b74da07")
+		(property "Reference" "R34"
+			(at 240.03 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 240.03 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 237.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0e0c301-ed78-4dfe-a6d2-0d2d71a3fdb2")
+		)
+		(pin "1"
+			(uuid "5f4343d6-f74e-415b-ac2b-e9d13ba9abdb")
+		)
+		(instances
+			(project "sodiumBMS"
+				(path "/fcdd2084-f4ec-4b1b-b9ac-497c327c0303/6e36d9cc-6a8c-4543-ae7a-077a6a363a91"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 78.74 54.61 0)
 		(mirror x)
@@ -8132,7 +8214,7 @@
 	)
 	(symbol
 		(lib_id "Q_PMOS:Q_PMOS")
-		(at 237.49 85.09 90)
+		(at 246.38 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8143,7 +8225,7 @@
 		(fields_autoplaced yes)
 		(uuid "67f14ac9-c85c-4a65-8a03-735f457e87b3")
 		(property "Reference" "Q5"
-			(at 237.49 76.2 90)
+			(at 246.38 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8152,8 +8234,8 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS"
-			(at 237.49 78.74 90)
+		(property "Value" "DMP3013"
+			(at 246.38 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8163,7 +8245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 80.01 0)
+			(at 243.84 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8174,7 +8256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 85.09 0)
+			(at 246.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,7 +8267,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor"
-			(at 237.49 85.09 0)
+			(at 246.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,7 +9994,7 @@
 	)
 	(symbol
 		(lib_id "R_Small:R_Small")
-		(at 237.49 92.71 0)
+		(at 237.49 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9922,7 +10004,7 @@
 		(dnp no)
 		(uuid "c983914b-3c38-4fdd-b5ef-33c373e5e2f8")
 		(property "Reference" "R14"
-			(at 239.014 91.186 0)
+			(at 233.426 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9933,7 +10015,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 238.76 93.218 0)
+			(at 233.934 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9944,7 +10026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 92.71 0)
+			(at 237.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9955,7 +10037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 92.71 0)
+			(at 237.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9966,7 +10048,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 237.49 92.71 0)
+			(at 237.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
