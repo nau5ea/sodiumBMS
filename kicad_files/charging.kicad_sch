@@ -7146,7 +7146,7 @@
 		(uuid "d7de59e1-783b-439f-8ff4-7dd3cafd46a3")
 	)
 	(hierarchical_label "Vsys"
-		(shape input)
+		(shape output)
 		(at 101.6 49.53 0)
 		(effects
 			(font

@@ -8809,7 +8809,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 223.52 27.94 180)
+			(at 223.52 31.75 180)
 			(uuid "0fd37121-9e52-464e-bd69-e89196f01cf5")
 			(effects
 				(font
@@ -8898,7 +8898,7 @@
 				(justify right)
 			)
 		)
-		(pin "Vsys" input
+		(pin "Vsys" output
 			(at 223.52 35.56 180)
 			(uuid "9ee664cf-2c34-468a-86c8-096dd008bb91")
 			(effects
@@ -8909,7 +8909,7 @@
 			)
 		)
 		(pin "Vbatt" input
-			(at 223.52 31.75 180)
+			(at 223.52 44.45 180)
 			(uuid "5843f658-3078-4499-ac23-9c4aaf928b24")
 			(effects
 				(font
@@ -8929,7 +8929,7 @@
 			)
 		)
 		(pin "status" output
-			(at 223.52 43.18 180)
+			(at 223.52 46.99 180)
 			(uuid "76280bca-780b-4d18-8c64-eca070464836")
 			(effects
 				(font
