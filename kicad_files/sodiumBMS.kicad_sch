@@ -8786,7 +8786,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "6e36d9cc-6a8c-4543-ae7a-077a6a363a91")
-		(property "Sheetname" "Charging and Balancing"
+		(property "Sheetname" "Charging"
 			(at 223.52 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,6 +8911,26 @@
 		(pin "Vbatt" input
 			(at 223.52 31.75 180)
 			(uuid "5843f658-3078-4499-ac23-9c4aaf928b24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 223.52 39.37 180)
+			(uuid "a66856ae-ebfe-4445-984a-588d56a2fd7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "status" output
+			(at 223.52 43.18 180)
+			(uuid "76280bca-780b-4d18-8c64-eca070464836")
 			(effects
 				(font
 					(size 1.27 1.27)
